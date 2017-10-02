@@ -1,0 +1,33 @@
+#myInput {
+    background-image: url('Mask_of_Truth.png'); /*add search icon to input */
+    background-size: 30px 30px;
+    background-position: 5px 7px;
+    background-repeat: no-repeat;
+    width: 52%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myUL {
+    /* Remove default list sytling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    width: 55%;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
